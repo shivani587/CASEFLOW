@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+dist/
+.angular/
+target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# IDE and OS
+.idea/
+.vscode/
+*.log
+.DS_Store
+
+# Local databases and uploaded files
+*.dump
+*.sql
+*.db
+*.sqlite
+uploads/
+minio-data/
+postgres-data/
+
+# Build files
+coverage/
